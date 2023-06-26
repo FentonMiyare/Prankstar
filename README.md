@@ -1,0 +1,3 @@
+# Prankstar App - With Integration of Firebase Firestore with Redux Toolkit Query
+
+Integrating Firebase Firestore with Redux Toolkit Query is an efficient way to handle data management in modern web applications. Redux Toolkit Query is a library that helps to simplify the management of API data in a Redux store. Firebase Firestore, on the other hand, is a NoSQL document-oriented database that can store, retrieve and manage data. This technical article will explain how the above code integrates Firebase Firestore with Redux Toolkit Query to organize the code and the benefits of this approach.# Prankstar

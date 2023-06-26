@@ -8,6 +8,7 @@
 		"build": "vite build",
 		"lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
+    "format": "prettier . --write",
 		"prepare": "husky install"
 	},
 	"repository": {
@@ -51,7 +52,7 @@
 		"vite": "^4.3.9"
 	},
 	"lint-staged": {
-		"*.{js, jsx}": "npm run lint",
-		"*.{js, css, md, html, json}": "npm run format"
+		"*.{js,jsx}": "npm run lint",
+		"*.{js,css,md,html}": "npm run format"
 	}
 }

@@ -1,4 +1,35 @@
 {
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:react/recommended",
+		"plugin:jest/recommended",
+		"airbnb",
+		"prettier",
+		"react-app",
+		"react-app/jest"
+	],
+	"plugins": ["react", "react-hooks", "jest"],
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest/globals": true
+	},
+	"rules": {
+		"react/react-in-jsx-scope": "off"
+	}
+}
+
+/*
+{
 	"env": {
 		"browser": true,
 		"es2021": true,
@@ -23,35 +54,4 @@
 	"rules": {}
 }
 
-// {
-// 	"env": {
-// 		"browser": true,
-// 		"es2021": true,
-// 		"jest/globals": true
-// 	},
-// 	"extends": [
-// 		"plugin:react/recommended",
-// 		"plugin:jest/recommended",
-// 		"airbnb",
-// 		"prettier"
-// 	],
-// 	"parserOptions": {
-// 		"ecmaFeatures": {
-// 			"jsx": true
-// 		},
-// 		"ecmaVersion": "latest",
-// 		"sourceType": "module"
-// 	},
-// 	"plugins": ["react", "jest"],
-// 	"rules": {
-// 		"no-underscore-dangle": 0,
-// 		"import/extensions": [
-// 			"error",
-// 			"ignorePackages",
-// 			{
-// 				"js": "always",
-// 				"jsx": "always"
-// 			}
-// 		]
-// 	}
-// }
+*/

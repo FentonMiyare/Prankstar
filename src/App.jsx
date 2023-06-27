@@ -1,11 +1,18 @@
+import Welcome from '@components/welcome/Welcome';
 import './App.css';
 
 function App() {
-	return <h1>Hello world! I am using React</h1>;
+	return (
+		<div>
+			<h1 className="text-primary text-3xl font-bold underline">
+				Hello world! I am using React
+			</h1>
+			<Welcome />
+		</div>
+	);
 }
 
 export default App;
-
 
 /**
  # "*.{js, jsx}": "eslint --cache --fix"

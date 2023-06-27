@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"checkJs": true,
+		"types": ["node"],
+		"jsx": "react-jsx",
+		"paths": {
+			"@app/*": ["./app/*"],
+			"@components/*": ["./components/*"],
+			"@hooks/*": ["./hooks/*"],
+			"@features/*": ["./features/*"],
+			"@assets/*": ["./assets/*"],
+			"@styles/*": ["./styles/*"]
+		}
+	},
+	"include": ["src"]
+	// "references": [{ "path": "./jsconfig.node.json" }]
+}
+
+// Problems loading reference 'https://json.schemastore.org/jsconfig': Unable to load schema from 'https://json.schemastore.org/jsconfig': read ECONNRESET.

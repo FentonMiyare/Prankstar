@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='https://en.vetores.org/d/vite-js-logo.svg' alt='Vite Logo' width='600'/>
+  <img src='https://en.vetores.org/d/vite-js-logo.svg' alt='Vite Logo' width='360'/>
 </p>
 
 <h1 align='center'>
@@ -245,7 +245,7 @@ Contributions are welcome! If you have any improvements or bug fixes, please fol
 
 ### Checklist
 
-When you usclonee this repo, try and follow the checklist to update your info properly
+When you clonee this repo, try and follow the checklist to update your info properly
 
 - [ ] Head over at [Firebase](https://firebase.google.com/) and create an `account`
 - [ ] Go to `console` and start a new `project`
@@ -280,9 +280,7 @@ And you will see the generated file in `dist` that ready to be served.
 
 ### Deploy on
 
-- `Netlify`
-
-Go to [Netlify](https://app.netlify.com/start) and select your repository, `OK` along the way, and your App will be live in a minute.
+- `Netlify` - Go to [Netlify](https://app.netlify.com/start) and select your repository, `OK` along the way, and your App will be live in a minute.
 
 - or `Firestore`
 

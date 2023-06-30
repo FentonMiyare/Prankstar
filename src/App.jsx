@@ -1,16 +1,23 @@
-import Welcome from '@components/welcome/Welcome';
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import HomePage from '@pages/HomePage';
+import LoginPage from '@pages/LoginPage';
+import RegisterPage from '@pages/RegisterPage';
+import Layout from '@components/Layout';
 
-function App() {
+const App = () => {
 	return (
-		<div>
-			<h1 className="text-primary text-3xl font-bold underline">
-				Hello world! I am using React
-			</h1>
-			<Welcome />
-		</div>
+		<Routes>
+			<Route path="/" element={<Layout />}>
+				<Route index element={<HomePage />} />
+				<Route path="/login" element={<LoginPage />} />
+				<Route path="/signup" element={<RegisterPage />} />
+				{/* <Route path="/*" element={ErrorPage} /> */}
+				{/* Catch all - replace with 404 component if you want */}
+				<Route path="*" element={<Navigate to="/" replace />} />
+			</Route>
+		</Routes>
 	);
-}
+};
 
 export default App;
 

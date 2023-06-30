@@ -41,11 +41,11 @@ Prankstar Web App - With <b>Integrated Firebase Firestore, OpenAI and Redux Tool
 
 <div align='left'>
   <p>
-  In this ambitious web app project, I aimed to build a captivating React application integrating OpenAI, Redux, and Firebase. The goal is to create a complete CRUD app with user authentication, advanced features, and seamless data management using Firebase Firestore and Redux Toolkit Query.
+  In this <em>ambitious</em> web app project, I aimed to build a captivating <b>React</b> application integrating <b>OpenAI</b>, <b>Redux</b>, and <b>Firebase</b>. The goal is to create a <em>complete CRUD app with user authentication, advanced features, and seamless data management</em> using Firebase Firestore and Redux Toolkit Query.
 
-Exploring the benefits of OpenAI's chatGPT, AWS CodeWhisperer AI, and social media authentication, the project focuses on frontend and backend code organization. Utilizing React Router v6 for navigation and advanced tailwind styling, the app aimed to deliver a seamless user experience.
+Exploring the benefits of <b>OpenAI's chatGPT</b>, <b>AWS CodeWhisperer AI</b>, and <b>social media authentication</b>, the project focuses on frontend and backend code organization. This app follows the **_Atomic Design Pattern_**, which breaks down the interface into smaller, reusable components. Utilizing <b>React Router v6</b> for navigation and advanced <b>tailwind</b> styling, the app aimed to deliver a <em>seamless user experience</em>.
 
-Join me on this adventure as we combine the power of React, Redux, and Firebase to create a sophisticated Contact Management Web App. Together, we'll push the boundaries of web development. #Prankstar #Firebase #OpenAI
+Join me on this adventure as we combine the power of React, Redux, and Firebase to create a sophisticated Contact Management Web App. Together, we'll push the boundaries of <em>web development</em>. #Prankstar #Firebase #OpenAI
 
   </p>
 </div>
@@ -96,7 +96,7 @@ Join me on this adventure as we combine the power of React, Redux, and Firebase 
 
 ## What I Learnt
 
-### Firebase
+### `Firebase`
 
 Firebase has been instrumental in my development journey with its features such as authentication, real-time database, cloud storage, and hosting.
 
@@ -105,22 +105,22 @@ Firebase has been instrumental in my development journey with its features such 
 - Cloud Storage: Facilitated secure file uploading, downloading, and sharing.
 - Hosting: Provided a fast and reliable platform for deploying web apps.
 
-### React
+### `React`
 
 React, a powerful JavaScript library for building user interfaces, has revolutionized my web app development process.
 
-- Components: Promoted code modularity, reusability, and maintainability.
-- Virtual DOM: Ensured optimal UI rendering and improved performance.
-- State Management: Simplified state management and data flow within components.
-- JSX: Enhanced code readability and enabled HTML-like code within JavaScript.
+- `Components`: Promoted code modularity, reusability, and maintainability.
+- `Virtual DOM`: Ensured optimal UI rendering and improved performance.
+- `State Management`: Simplified state management and data flow within components.
+- `JSX`: Enhanced code readability and enabled HTML-like code within JavaScript.
 
 ## Continued Development
 
 As the app evolves, I have planned the following steps:
 
-- TypeScript: Introduce TypeScript for better type safety, code refactoring, and collaboration within the team.
+- `TypeScript`: Introduce TypeScript for better type safety, code refactoring, and collaboration within the team.
 
-- Upgrade to Next.js: Improve scalability and performance by upgrading to Next.js, a powerful React framework offering server-side rendering and automatic code splitting.
+- Upgrade to `Next.js`: Improve scalability and performance by upgrading to Next.js, a powerful React framework offering server-side rendering and automatic code splitting.
 
 By leveraging the knowledge gained from Firebase and React, incorporating TypeScript, and upgrading to Next.js, I will continue developing the web app with a focus on code quality and optimal user experience.
 
@@ -154,6 +154,7 @@ These resources were instrumental in enhancing the functionality and user experi
 
 - Node.js (https://nodejs.org)
 - npm (comes with Node.js) or yarn (https://yarnpkg.com)
+- A browser to open the main file
 
 ### Installation
 
@@ -296,14 +297,26 @@ By default this command should be triggered after yarn/npm deps are installed.
 
 You can find me on almost all socials, below are just a few I use often
 
- <img src="https://img.shields.io/badge/Gmail-D14836?&logo=gmail&logoColor=white" />
- <img src="https://img.shields.io/badge/GitHub-100000?&logo=github&logoColor=white" />
- <img src="https://img.shields.io/badge/LinkedIn-0077B5?&logo=linkedin&logoColor=white" />
- <img src="https://img.shields.io/badge/Facebook-1877F2?&logo=facebook&logoColor=white" />
- <img src="" />
+👤 **Fenton Miyare**
+
+- Github: [@FentonMiyare - <img src="https://img.shields.io/badge/GitHub-100000?&logo=github&logoColor=white" />]()
+- Gmail: [@makavelimiyare - <img src="https://img.shields.io/badge/Gmail-D14836?&logo=gmail&logoColor=white" />](makavelimiyare@gmail.com)
+- Linkedin: [@Fenton_Miyare - <img src="https://img.shields.io/badge/LinkedIn-0077B5?&logo=linkedin&logoColor=white" />]()
+- Facebook: [@fentonmakaveli - <img src="https://img.shields.io/badge/Facebook-1877F2?&logo=facebook&logoColor=white" />]()
+  <br />
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+<br />
 
 <div align=center>
-  <img atl="" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
-  <img atl="" src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  <img alt="" src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" />
+  <img atl="paypal" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+  <img atl="Buy_Me_A_Coffee" src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+  <img alt="Stripe" src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" />
 </div>
